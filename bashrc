@@ -24,4 +24,4 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-export PS1="$(tput setaf 171)[\A] \[$(tput setaf 201)\]\u\[$(tput setaf 93)\]@\[$(tput setaf 33)\]\h \[$(tput setaf 51)\]\w \[$(tput sgr0)\]$"
+export PS1="\[$(tput setaf 171)\][\A] \[$(tput setaf 201)\]\u\[$(tput setaf 93)\]@\[$(tput setaf 33)\]\h \[$(tput setaf 51)\]\w \[$(tput sgr0)\]$"
